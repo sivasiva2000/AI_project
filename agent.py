@@ -7,6 +7,7 @@ def total_count_of_identity_access_management_iga_agents() -> dict:
         "total_identity": 100
     }
 
+
 iga_assistance_agent = LlmAgent(
 name="iga_assistance_agent",
 model="gemini-2.5-flash",
